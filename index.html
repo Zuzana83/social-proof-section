@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./main.css">
+    <title>Frontend Mentor | Social proof section</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        margin-top: 2rem;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <section class="social-proof">
+      <div class="container pattern-bg-container">
+        <picture class="top-bg-pattern">
+          <source srcset="./images/bg-pattern-top-desktop.svg" media="(min-width: 1050px)">
+          <img src="./images/bg-pattern-top-mobile.svg" alt="abstract wave shape" >
+        </picture>
+        <!-- Intro & rating -->
+        <div class="intro d-grid g-col-2">
+          <!-- Left side with intro part -->
+          <div class="intro-content">
+            <h2 class="intro-title">10,000+ of our users love our products.</h2>
+            <p class="intro-text">We only provide great products combined with excellent customer service. See what our satisfied customers are saying about our services.</p>
+          </div>
+          <!-- Right side with ratings -->
+          <div class="intro-ratings">
+            <!-- Single rating -->
+            <div class="rating-wrapper ratings-flex">
+              <div class="stars-wrapper">
+                <img src="./images/icon-star.svg" alt="star icon" class="star-icon">
+                <img src="./images/icon-star.svg" alt="star icon" class="star-icon">
+                <img src="./images/icon-star.svg" alt="star icon" class="star-icon">
+                <img src="./images/icon-star.svg" alt="star icon" class="star-icon">
+                <img src="./images/icon-star.svg" alt="star icon" class="star-icon">
+              </div>
+              <p class="rate-section">Rated 5 Stars in Reviews</p>
+            </div>
+             <!-- Single rating -->
+            <div class="rating-wrapper ratings-flex">
+              <div class="stars-wrapper">
+                <img src="./images/icon-star.svg" alt="star icon" class="star-icon">
+                <img src="./images/icon-star.svg" alt="star icon" class="star-icon">
+                <img src="./images/icon-star.svg" alt="star icon" class="star-icon">
+                <img src="./images/icon-star.svg" alt="star icon" class="star-icon">
+                <img src="./images/icon-star.svg" alt="star icon" class="star-icon">
+              </div>
+              <p class="rate-section">Rated 5 Stars in Report Guru</p>
+            </div>
+             <!-- Single rating -->
+            <div class="rating-wrapper ratings-flex">
+              <div class="stars-wrapper">
+                <img src="./images/icon-star.svg" alt="star icon" class="star-icon">
+                <img src="./images/icon-star.svg" alt="star icon" class="star-icon">
+                <img src="./images/icon-star.svg" alt="star icon" class="star-icon">
+                <img src="./images/icon-star.svg" alt="star icon" class="star-icon">
+                <img src="./images/icon-star.svg" alt="star icon" class="star-icon">
+              </div>
+              <p class="rate-section">Rated 5 Stars in BestTech</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Testimonials -->
+        <div class="testimonials-wrapper d-grid g-col-3">
+          <!-- Single testimonials -->
+          <article class="testimonial">
+            <div class="testimonial-user-wrapper">
+              <img src="./images/image-colton.jpg" alt="reviewer img" class="user-img">
+              <div class="user-info">
+                <p class="user-name">Colton Smith</p>
+                <p class="user-status">verified buyer</p>
+              </div>
+            </div>
+            <p class="user-testimonial">"We needed the same printed design as the one we had ordered a week prior. Not only did they find the original order, but we also received it in time. Excellent!"</p>
+          </article>
+          <!-- Single testimonials -->
+          <article class="testimonial">
+            <div class="testimonial-user-wrapper">
+              <img src="./images/image-irene.jpg" alt="reviewer img" class="user-img">
+              <div class="user-info">
+                <p class="user-name">Irene Roberts</p>
+                <p class="user-status">verified buyer</p>
+              </div>
+            </div>
+            <p class="user-testimonial">"Customer service is always excellent and very quick turn around. Completely delighted with the simplicity of the purchase and the speed of delivery."</p>
+          </article>
+          <!-- Single testimonials -->
+          <article class="testimonial">
+            <div class="testimonial-user-wrapper">
+              <img src="./images/image-anne.jpg" alt="reviewer img" class="user-img">
+              <div class="user-info">
+                <p class="user-name">Anne Wallace</p>
+                <p class="user-status">verified buyer</p>
+              </div>
+            </div>
+            <p class="user-testimonial">"Put an order with this company and can only praise them for the very high standard. Will definitely use them again and recommend them to everyone!"</p>
+          </article>
+        </div>
+        <picture class="bottom-bg-pattern">
+          <source srcset="./images/bg-pattern-bottom-desktop.svg" media="(min-width: 1050px)">
+          <img src="./images/bg-pattern-bottom-mobile.svg" alt="abstract wave shape" >
+        </picture>
+      </div>
+    </section>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">z83studio</a>.
+    </div>
+  </body>
+</html>
